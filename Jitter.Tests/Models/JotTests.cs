@@ -11,7 +11,7 @@ namespace Jitter.Tests.Models
         public void JotEnsureIcanCreateInstance()
         {
             Jot a_jot = new Jot();
-            Assert.IsNotNull(a_jot);
+            
         }
 
         [TestMethod]
