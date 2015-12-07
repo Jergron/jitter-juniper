@@ -22,10 +22,15 @@ namespace Jitter
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
-
+            
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/main.css",
                       "~/Content/site.css"));
+
+            //How to add a new ScriptBundle
+            bundles.Add(new ScriptBundle("~/Content/myJavascript").Include(
+                      "~/Content/custom.js"));
         }
     }
 }
