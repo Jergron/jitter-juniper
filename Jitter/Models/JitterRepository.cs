@@ -34,7 +34,7 @@ namespace Jitter.Models
             JitterUser found_user = query.Single<JitterUser>();
             var query2 = from jot in found_user.Jots where jot.JotId == jot_id select jot;
             Jot found_jot = query2.Single<Jot>();
-            return found_jot;
+             return found_jot;
 
         }
 

@@ -17,7 +17,7 @@ namespace Jitter.Tests.Models
 
         [TestMethod]
         public void JitterUserEnsureJitterUserHasAllTheThings()
-        {
+                {
             // Arrange
             JitterUser a_user = new JitterUser();
             a_user.Handle = "adam1";
