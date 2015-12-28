@@ -33,10 +33,18 @@ namespace Jitter
             bundles.Add(new ScriptBundle("~/Content/myjavascript").Include(
                        "~/Content/custom.js" ));
 
+<<<<<<< HEAD
             bundles.Add(new ScriptBundle("~/bundles/angularjs").Include("~/Scripts/angular.js",
                 "~/Scripts/angular-aria.js",
                 "~/Scripts/app.js"));
 
+=======
+            bundles.Add(new ScriptBundle("~/bundles/angularjs").Include(
+                        "~/Scripts/angular.js",
+                        "~/Scripts/angular-aria.js",
+                        "~/Scripts/app.js"
+                        ));
+>>>>>>> 4edeb1fa679168e0ca6b2a99e69dbb6b4b1e00b7
         }
     }
 }

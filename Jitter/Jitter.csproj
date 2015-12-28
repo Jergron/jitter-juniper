@@ -185,9 +185,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\201512091606421_InitialCreate.cs" />
     <Compile Include="Migrations\201512091606421_InitialCreate.Designer.cs">
       <DependentUpon>201512091606421_InitialCreate.cs</DependentUpon>
+=======
+    <Compile Include="Migrations\201512091606542_InitialCreate.cs" />
+    <Compile Include="Migrations\201512091606542_InitialCreate.Designer.cs">
+      <DependentUpon>201512091606542_InitialCreate.cs</DependentUpon>
+>>>>>>> 4edeb1fa679168e0ca6b2a99e69dbb6b4b1e00b7
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -1045,9 +1051,14 @@
     <Content Include="Views\Jitter\TopFavs.cshtml" />
     <Content Include="Views\Jitter\UserFeed.cshtml" />
     <Content Include="Scripts\version.json" />
+<<<<<<< HEAD
+=======
+    <Content Include="Views\Jitter\Admin.cshtml" />
+>>>>>>> 4edeb1fa679168e0ca6b2a99e69dbb6b4b1e00b7
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -1058,8 +1069,13 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201512091606421_InitialCreate.resx">
       <DependentUpon>201512091606421_InitialCreate.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Migrations\201512091606542_InitialCreate.resx">
+      <DependentUpon>201512091606542_InitialCreate.cs</DependentUpon>
+>>>>>>> 4edeb1fa679168e0ca6b2a99e69dbb6b4b1e00b7
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
